@@ -154,7 +154,7 @@
         <mxCell id="VU2UuEI_NbV8B1_qW69L-38" value="Dataset Information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="176" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VU2UuEI_NbV8B1_qW69L-39" value="Kafka Topic" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VU2UuEI_NbV8B1_qW69L-39" value="Kafka Broker" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="523" y="34" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VU2UuEI_NbV8B1_qW69L-40" value="Nhận dữ liệu streaming" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VU2UuEI_NbV8B1_qW69L-39">
@@ -171,8 +171,8 @@
         <mxCell id="VU2UuEI_NbV8B1_qW69L-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VU2UuEI_NbV8B1_qW69L-43" target="VU2UuEI_NbV8B1_qW69L-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VU2UuEI_NbV8B1_qW69L-43" value="Log Message" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="790" y="-116" width="60" height="80" as="geometry" />
+        <mxCell id="VU2UuEI_NbV8B1_qW69L-43" value="Log Message ( Mongo)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-116" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VU2UuEI_NbV8B1_qW69L-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="VU2UuEI_NbV8B1_qW69L-39" target="VU2UuEI_NbV8B1_qW69L-43">
           <mxGeometry relative="1" as="geometry">
